@@ -40,7 +40,7 @@ You can run the main.py with some optional arguments:
 
 * `--model`: Specify the Groq model to use (default: `llama-3.1-70b-versatile`)
 * `--messages`: Specify initial messages in JSON format
-* `--current_dir`: Specify the current working directory
+* `--current_dir`: Specify the current working directory for the shell tool.
 
 ### Interacting with the Assistant
 To interact with the assistant, simply type a message and press enter. The assistant will respond with a helpful response.
