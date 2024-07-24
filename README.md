@@ -11,7 +11,7 @@ Groq Shell Assistant is a conversational AI assistant that can interact with use
 
 ### Clone the Repository
 ```bash
-https://github.com/skapadia3214/groq-shell-assistant.git
+git clone https://github.com/skapadia3214/groq-shell-assistant.git
 ```
 
 ### Install Dependencies
@@ -20,12 +20,15 @@ cd groq-shell-assistant
 pip install -r requirements.txt
 ```
 
-### Set up Environment Variables
+### Set up Environment Variable
 Create a `.env` file in the root of the repository with the following contents:
 ```makefile
 GROQ_API_KEY=<your-groq-api-key>
 TAVILY_API_KEY=<your-tavily-api-key> (optional)
 ```
+
+- You can get your Groq API KEY [here](https://console.groq.com/keys).
+- You can get your Tavily API KEY [here](https://app.tavily.com/home).
 
 ### Run the Assistant
 ```bash
