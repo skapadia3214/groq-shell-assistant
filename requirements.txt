@@ -1,7 +1,4 @@
 groq>=0.9.0
-langchain>=0.2.9
-langchain_groq>=0.1.6
-langchain_community>=0.2.7
 tavily-python>=0.3.5
 rich>=13.7.1
 python-dotenv>=1.0.1
